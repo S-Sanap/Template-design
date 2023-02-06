@@ -1,0 +1,64 @@
+/* body {
+  background: url("img/home.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+} */
+
+.container-fluid {
+  border: 1px solid black;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  color: #0910e0;
+  padding: 15px;
+  display: block;
+}
+#menu li a:hover {
+  background-color: #de7165;
+}
+#banner {
+  background-image: url("img/home.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.banner-title {
+  padding-top: 5rem;
+
+  text-align: center;
+}
+.banner-title h1 {
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+}
+.banner-title p.lead {
+  color: #fff;
+}
+.middle-banner {
+  background-image: url("img/about\ us.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.container-sm {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #fff;
+}
+/* .background-img {
+  background: url("img/123.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+} */

@@ -1,0 +1,93 @@
+a:hover {
+  text-decoration: none;
+}
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section h2.section-head {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section h2.section-head:after {
+  background-color: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+#header {
+  background-color: #e74c3c;
+  color: aliceblue;
+}
+#logo {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  color: #ecf0f1;
+  padding: 15px;
+  display: block;
+}
+#menu li a:hover {
+  background-color: #c0392b;
+}
+#banner {
+  background-image: url("banner.jfif");
+  background-size: cover;
+}
+.banner-title {
+  padding-top: 5rem;
+}
+.banner-title h1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+.banner-title p.lead {
+  color: #fff;
+  background-color: #e74c3c;
+  padding: 10px;
+}
+.services-box {
+  text-align: center;
+}
+.services-box i.fa {
+  color: #e74c3c;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+#testimonial {
+  background-image: url("testimonial.jpg");
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+  color: #fff;
+}
+#testimonial:before {
+  background-color: rgba(52, 73, 94, 0.7);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.testimonial img {
+  border-radius: 50%;
+  width: 80px;
+}
+.news-post img {
+  width: 250px;
+  height: 100px;
+}
